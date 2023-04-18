@@ -60,7 +60,7 @@ public class Java1_4 {
 		// 20.0
         System.out.println(String. format("%1f",b*2.0));
 		// a ハロー true
-        System.out.println('c'+str+bool);
+        System.out.println(c+str+bool);
 		// 11130.0                    数字を全て足す
         System.out.println(b+s+i+l+f+d);
 		// 10000000000                小数点以外の数字を全てかける
