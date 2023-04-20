@@ -76,6 +76,7 @@ public class Java1_4 {
 		//「ハローJAVA43」と表示とさせたいのですが、意図通りに動きません。正しく動作するように修正してください。
 		String num = "20";
 		String num1 = "23";
+		num1="43";
 		System.out.println("ハローJAVA" + (num + num1));
 
 	}
