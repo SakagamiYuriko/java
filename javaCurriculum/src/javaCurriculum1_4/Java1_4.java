@@ -58,7 +58,7 @@ public class Java1_4 {
 		// 11110
         System.out.println(b+s+i+l);
 		// 20.0
-        System.out.println(String. format("%1f",b*2.0));
+        System.out.println(String. format("%.1f",b*2.0));
 		// a ハロー true
         System.out.println(c+str+bool);
 		// 11130.0                    数字を全て足す
@@ -74,9 +74,9 @@ public class Java1_4 {
 		// Q5 
 		// 次のプログラムを実行すると「ハローJAVA2023」という結果が表示されます。
 		//「ハローJAVA43」と表示とさせたいのですが、意図通りに動きません。正しく動作するように修正してください。
-		String num = "20";
-		String num1 = "23";
-		num1="43";
+		int num = 20;
+		int num1 = 23;
+		
 		System.out.println("ハローJAVA" + (num + num1));
 
 	}
