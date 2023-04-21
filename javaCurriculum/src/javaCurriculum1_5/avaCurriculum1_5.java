@@ -17,10 +17,10 @@ public class avaCurriculum1_5 {
 		    	System.out.println(nameLetter);
 		        // 「年齢は○○歳です」
 		    	int age=18;
-		    	String ageLetter=String.format("年齢は%dです", age);
+		    	String ageLetter=String.format("年齢は%d歳です", age);
 		    	System.out.println(ageLetter);
 		        // 「身長は○○cmです」
-		    	double height=17.5;
+		    	double height=170.5;
 		    	String heightLetter=String.format("身長は%.1fcmです", height);
 		    	System.out.println(heightLetter);
 		        // 「体重は○○kgです」
@@ -39,7 +39,9 @@ public class avaCurriculum1_5 {
 
 		        // Q2を下記に記載
 		    	double bmi=weight/((height/100)*(height/100));
-		    	System.out.println("BMIは"+bmi+"です");
+		    	String bmiLetter=String.format("BMIは%.1fcmです", bmi);
+		    	System.out.println(bmiLetter);
+		    	
 		    	    	
 		        // Q3 Q1で宣言した変数に再代入し、下記の通りコンソールに出力してください
 		    	// Q3を下記に記載
@@ -49,7 +51,7 @@ public class avaCurriculum1_5 {
 		    	System.out.println(nameLetter);
 		    	// 年齢は24歳です
 		    	age=24;
-		    	ageLetter=String.format("年齢は%dです", age);
+		    	ageLetter=String.format("年齢は%d歳です", age);
 		    	System.out.println(ageLetter);
 		    	// 身長168.5cmです
 		    	height=168.5;
@@ -60,12 +62,13 @@ public class avaCurriculum1_5 {
 		    	weightLetter=String.format("体重は%.1fkgです", weight);
 		    	System.out.println(weightLetter);
 		    	// 好きな食べ物はオムライスです
-		        food="寿司";
+		        food="オムライス";
 		        foodLetter=String.format("好きな食べ物は%sです", food);
 		    	System.out.println(foodLetter);
 		    	// BMIは22.6です
 		    	bmi=weight/((height/100)*(height/100));
-		    	System.out.println("BMIは"+bmi+"です");
+		    	bmiLetter=String.format("BMIは%.1fcmです", bmi);
+			    System.out.println(bmiLetter);
 
 
 
