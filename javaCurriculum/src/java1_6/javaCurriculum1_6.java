@@ -4,10 +4,6 @@ import java.util.Random;
 
 public class javaCurriculum1_6 {
 	         
-	        // public static void main(String[] args) {
-	        	 //package test11;
-
-	        	 //public class Variable2 {
 	        	 	public static void main(String[] args) {
 //	        	 		問１）
 //	        	 		変数 x を宣言し、「3」を代入して下さい。
