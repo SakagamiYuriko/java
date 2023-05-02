@@ -36,7 +36,7 @@ public class javaCurriculum1_6 {
 //	        	 		あなたの年齢を予想します。
 //	        	 		あなたの年齢はおそらく〇〇歳ですね？
 	        	 		Random random = new Random();
-	        	 		int randomValue = random.nextInt(100);
+	        	 		int randomValue = random.nextInt(101);
 	        	 		System.out.println("あなたの年齢を予想します。");
 	        	 		System.out.println("あなたの年齢はおそらく"+randomValue+"歳ですね？");
 
