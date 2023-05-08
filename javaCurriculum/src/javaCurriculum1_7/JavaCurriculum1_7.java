@@ -23,9 +23,8 @@ public class JavaCurriculum1_7 {
 				double pi=3.14;
 				pi*=3;
 				System.out.println(pi);
-				//Integer num=Integer.(pi);
-				//int i=num
-				//System.out.println(i);
+				Integer num=(int)pi;
+				System.out.println(num);
 				
 //				問３）
 //				①double型の変数を定義し、「2 + 6.0」を代入して下さい。
@@ -38,8 +37,15 @@ public class JavaCurriculum1_7 {
 //				　int型の変数をコンソールに出力して下さい。
 				double varD=2+6.0;
 				System.out.println(varD);
-				//int varI=varD;
-				//System.out.println(varI);
+				
+				Integer intNum=(int)varD;
+				System.out.println(intNum);
+				
+				String strNum=String.valueOf(intNum);
+				System.out.println(strNum);
+				
+				int val=Integer.parseInt(strNum);
+				System.out.println(val);
 
 			}
 
